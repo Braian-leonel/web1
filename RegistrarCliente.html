@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Registrarse</title> 
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+   <script src="validar_loggin_usuario/registrarcliente.js"></script>
+	
+
+</head>  
+<body >
+ <form class="formulario">
+    
+    <h1>REGISTRARSE COMO USUARIO</h1>
+        <div class="contenedor">
+                <!--NOMBRE-->
+                    <div class="input-contenedor">
+                        <input type="text" id="Nombre" placeholder="Nombre">
+                        </div>
+                         <!--APELLIDO-->
+                         <div class="input-contenedor">
+                            <input type="text" id="Apellido" placeholder="Apellido">
+                         </div>
+                         <!--DNI-->
+                         <div class="input-contenedor">
+                            <input type="text" id="DNI" placeholder="DNI">
+                         </div>
+                         <!--DIRECCION-->
+                         <div class="input-contenedor">
+                            <input type="text"  id="Direccion" placeholder="Direccion">
+                         </div>
+                         <!--Numero de direccion-->
+                          <div class="input-contenedor">
+                            <input type="text" id="Numero" placeholder="Numero">
+                         </div>
+                         <!--CORREO ELECTRONICO-->
+                         <div class="input-contenedor">
+                            <input type="text" id="Correo" placeholder="Correo Electronico">
+                         </div>
+                         <!--NUMERO DE TELEFONO-->
+                         <div class="input-contenedor">
+                            <input type="text" id="Numero telefono" placeholder="Numero de telefono">
+                         </div>
+                         <!--CONTRASEÑA-->
+                         <div class="input-contenedor">
+                            <input type="password" id="password" placeholder="Contraseña">
+                         </div>
+                         <!--este boton comentado deberia de llevar a la pagina prinvipal-->
+                        <!--<input type="submit" value="Registrarse" class="button">-->
+                            <div class="imput-contenedor">
+                                <a href="ViajesSegurosOrg.html">
+                                    <input type="submit" onclick=validar() value="Registrarse" class="button">
+                                </a>
+    
+                            </div>
+                            
+                 <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+                 <p>¿Ya tienes una cuenta?<a class="link" href="LogginUsuario.html">Iniciar Sesion</a></p>
+        </div>
+    </form>
+</body>
+</html>
